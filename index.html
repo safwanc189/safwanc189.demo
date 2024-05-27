@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Additional CSS styles for description */
+        .product-details p {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .product-details ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .product-details ul li {
+            margin-bottom: 10px;
+        }
+
+        .product-details ul li::before {
+            content: "•";
+            color: #333;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Nike</div>
+            <ul>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="product">
+            <div class="product-image">
+                <img src="images/image1.jpeg" alt="Product 1">
+            </div>
+            <div class="product-details">
+                <h2>Nike Air Jordan</h2>
+                <p>Nike Air Jordan is a line of iconic basketball shoes and apparel created in collaboration with NBA legend Michael Jordan. Here's a brief overview:</p>
+                <ul>
+                    <li><strong>Air Cushioning:</strong> Responsive Nike Air technology provides superior cushioning and impact protection.</li>
+                    <li><strong>Innovative Design:</strong> Each model features innovative design elements inspired by Michael Jordan's playing style and achievements.</li>
+                    <li><strong>Signature Models:</strong> From the legendary Air Jordan I to the latest releases, each shoe is a testament to Jordan's legacy.</li>
+                    <li><strong>Limited Editions:</strong> Exclusive releases and collaborations with designers and artists make Air Jordan sneakers highly sought-after collectibles.</li>
+                    <li><strong>Cultural Impact:</strong> Beyond the court, Air Jordan has become a global phenomenon, influencing fashion and culture worldwide.</li>
+                </ul>
+                <span class="price">$99.99</span>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <!-- More product sections can be added here -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Nike. All rights reserved. &copy; 2024 safwanc189.</p>
+    </footer>
+</body>
+</html>
